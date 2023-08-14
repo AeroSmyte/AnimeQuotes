@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D327B1792A8AABF8007DB79B /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D327B1782A8AABF8007DB79B /* QuoteModel.swift */; };
 		D3B73AE42A84646E0011B472 /* AnimeQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B73AE32A84646E0011B472 /* AnimeQuotesApp.swift */; };
-		D3B73AE62A84646E0011B472 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B73AE52A84646E0011B472 /* ContentView.swift */; };
+		D3B73AE62A84646E0011B472 /* QuoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B73AE52A84646E0011B472 /* QuoteListView.swift */; };
 		D3B73AE82A84646F0011B472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B73AE72A84646F0011B472 /* Assets.xcassets */; };
 		D3B73AEB2A84646F0011B472 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B73AEA2A84646F0011B472 /* Preview Assets.xcassets */; };
 		D3B73AF22A8466CB0011B472 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B73AF12A8466CB0011B472 /* QuoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D327B1782A8AABF8007DB79B /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
 		D3B73AE02A84646E0011B472 /* AnimeQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B73AE32A84646E0011B472 /* AnimeQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeQuotesApp.swift; sourceTree = "<group>"; };
-		D3B73AE52A84646E0011B472 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3B73AE52A84646E0011B472 /* QuoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListView.swift; sourceTree = "<group>"; };
 		D3B73AE72A84646F0011B472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3B73AEA2A84646F0011B472 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3B73AF12A8466CB0011B472 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D327B17A2A8AAC8D007DB79B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D327B1782A8AABF8007DB79B /* QuoteModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D327B17B2A8AAC9D007DB79B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3B73AE52A84646E0011B472 /* QuoteListView.swift */,
+				D3B73AF12A8466CB0011B472 /* QuoteView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D3B73AD72A84646E0011B472 = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +72,9 @@
 		D3B73AE22A84646E0011B472 /* AnimeQuotes */ = {
 			isa = PBXGroup;
 			children = (
+				D327B17B2A8AAC9D007DB79B /* View */,
+				D327B17A2A8AAC8D007DB79B /* Model */,
 				D3B73AE32A84646E0011B472 /* AnimeQuotesApp.swift */,
-				D3B73AE52A84646E0011B472 /* ContentView.swift */,
-				D3B73AF12A8466CB0011B472 /* QuoteView.swift */,
 				D3B73AE72A84646F0011B472 /* Assets.xcassets */,
 				D3B73AE92A84646F0011B472 /* Preview Content */,
 			);
@@ -140,8 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3B73AE62A84646E0011B472 /* ContentView.swift in Sources */,
+				D3B73AE62A84646E0011B472 /* QuoteListView.swift in Sources */,
 				D3B73AF22A8466CB0011B472 /* QuoteView.swift in Sources */,
+				D327B1792A8AABF8007DB79B /* QuoteModel.swift in Sources */,
 				D3B73AE42A84646E0011B472 /* AnimeQuotesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
