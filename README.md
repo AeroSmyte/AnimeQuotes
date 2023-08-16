@@ -4,10 +4,10 @@
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-AnimeQuotes is an app displaying my ability to hit an API for some data, in order to deliver inspirational, hilarious, and semi-useful quotes from the 
-most well-known anime of all time, at the click of a button.
+AnimeQuotes is an app displaying my ability to hit an API for some data, in order to deliver inspirational, hilarious, and semi-useful quotes from the most well-known anime of all time, at the click of a button.
 
-https://github.com/AeroSmyte/AnimeQuotes/assets/10874878/ed7f0d43-a8e9-4613-bc6c-32842d2e45d9
+![Recording](https://github.com/AeroSmyte/AnimeQuotes/assets/10874878/fd164f47-7bb9-4860-9361-666f4c3516f6)
+
 
 
 ## Technologies Used
