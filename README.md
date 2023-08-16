@@ -14,6 +14,10 @@ AnimeQuotes is an app displaying my ability to hit an API for some data, in orde
 
 * URLSession
 * Async/Await
+* Local Data
+
+## Future Updates
+* Core Data
 
 
 
